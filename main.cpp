@@ -14,6 +14,7 @@ I will request a change be made to one of your 10 nouns for the sole purpose of 
     Choose nouns that do things.  
     avoid choosing nouns that have things done TO them.
     If your noun consists of multiple words, use camelCaseToNameIt.
+
  
  2) for each of the 10 nouns, write out 3 actions it might perform, in plain english.
     a) AVOID state-checking actions, like "Car has a horn".  i.e.
@@ -51,86 +52,87 @@ arm.flex();                             // 3)
 arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
+
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        car
+//  action 1:    the car emits smog
+car.emitsSmog();
+//  action 2:    the car restricts gas flow
+car.restrictsGasFlow();
+//  action 3:    the car utilizes fuel
+car.utilizeFuel();
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        elevator
+//  action 1:    the elevator carries passengers
+elevator.carriesPassengers();
+//  action 2:    the elevator goes up
+elevator.goesUp();
+//  action 3:    the elevator goes down
+elevator.goesDown();
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        arm
+//  action 1:    the arm flexes
+arm.flexes();
+//  action 2:    the arm rotates
+arm.rotates();
+//  action 3:    the arm controls motion
+arm.controlsMotion();
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        lion
+//  action 1:    a lion roars
+lion.roars();
+//  action 2:    a lion eats
+lion.eats();
+//  action 3:    a lion protects its pride
+lion.protectsPride();
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        light bulb
+//  action 1:    a light bulb illuminates
+lightBulb.illuminates();
+//  action 2:    a light bulb burns out
+lightBulb.burnsOut();
+//  action 3:    a light bulb gets hot
+lightbulb.getsHot();
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        window
+//  action 1:    the window opens
+window.opens();
+//  action 2:    the window passes light
+window.passesLight();
+//  action 3:    the window adds ventilation
+window.addsVentilation();
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        speaker
+//  action 1:    the speakers produces sound
+speaker.producesSound();
+//  action 2:    the speaker consumes energy
+speaker.consumesEnergy();
+//  action 3:    the speaker vibrates
+speaker.vibrates();
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        piano    
+//  action 1:    the piano sustains a note
+piano.sustainsNote();
+//  action 2:    the piano dampens notes
+piano.dampensNote();
+//  action 3:    the piano resonates
+piano.resonates();
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        guitar
+//  action 1:    the guitar distorts
+guitar.distorts();
+//  action 2:    the guitar switches tone
+guitar.switchesTone();
+//  action 3:    the guitar changes amplitude
+guitar.changesAmplitude();
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        cat
+//  action 1:    the cat meows
+cat.meows();
+//  action 2:    the cat hisses
+cat.hisses();
+//  action 3:    the cat runs around
+cat.runsAround();
 
 
 #endif

@@ -110,13 +110,13 @@ speaker.consumesEnergy();
 //  action 3:    the speaker vibrates
 speaker.vibrates();
 //  8)
-//  Noun:        piano    
-//  action 1:    the piano sustains a note
-piano.sustainsNote();
-//  action 2:    the piano dampens notes
-piano.dampensNote();
-//  action 3:    the piano resonates
-piano.resonates();
+//  Noun:        audio engineer    
+//  action 1:    the audio engineer sends signals to console
+audioEngineer.sendsSignalsToConsole();
+//  action 2:    the audio engineer records to tape
+audioEngineer.recordsToTape();
+//  action 3:    the audio engineer bounces stems
+audioEngineer.bouncesStems();
 //  9)
 //  Noun:        guitar
 //  action 1:    the guitar distorts
